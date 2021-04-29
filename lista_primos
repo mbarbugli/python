@@ -1,0 +1,8 @@
+def lista_primos(n):
+    primos = []
+    for x in range(2, n):
+        if eh_primo(x):
+            primos.append(x)
+            #print(f'achei um primo: {x}')
+
+    return primos  
